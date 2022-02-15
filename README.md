@@ -15,3 +15,6 @@ The shortcode [guest_post_form] can be used on the page to display the guest pos
 To view guest posts use the shortcode [guest_posts].  
 To view the pending guest posts  use the shortcode [guest_posts status=\"draft\"].  
 Pagination added for guest posts  
+
+# == Standard Followed ==
+Tested using PHPCS and Wordpress Coding Stadard Package
