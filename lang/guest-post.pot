@@ -1,0 +1,223 @@
+# Copyright (C) 2022 Sufiyan Khan
+# This file is distributed under the same license as the Guest Post plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Guest Post 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/guest-post-main\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-02-15T20:32:47+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: guest-post\n"
+
+#. Plugin Name of the plugin
+#: includes/class-gp-post-types.php:47
+msgid "Guest Post"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allows guest authors to submit posts from front-end and view using Shortcode."
+msgstr ""
+
+#. Author of the plugin
+msgid "Sufiyan Khan"
+msgstr ""
+
+#: includes/class-gp-post-types.php:46
+msgid "Guest Posts"
+msgstr ""
+
+#: includes/class-gp-post-types.php:48
+msgid "All guest posts"
+msgstr ""
+
+#: includes/class-gp-post-types.php:49
+msgctxt "Admin menu name"
+msgid "Guest Posts"
+msgstr ""
+
+#: includes/class-gp-post-types.php:50
+#: includes/class-gp-post-types.php:51
+msgid "Create new guest post"
+msgstr ""
+
+#: includes/class-gp-post-types.php:52
+msgid "Edit"
+msgstr ""
+
+#: includes/class-gp-post-types.php:53
+msgid "Edit guest post"
+msgstr ""
+
+#: includes/class-gp-post-types.php:54
+msgid "New guest post"
+msgstr ""
+
+#: includes/class-gp-post-types.php:55
+msgid "View guest post"
+msgstr ""
+
+#: includes/class-gp-post-types.php:56
+msgid "View guest posts"
+msgstr ""
+
+#: includes/class-gp-post-types.php:57
+msgid "Search guest posts"
+msgstr ""
+
+#: includes/class-gp-post-types.php:58
+msgid "No guest posts found"
+msgstr ""
+
+#: includes/class-gp-post-types.php:59
+msgid "No guest posts found in trash"
+msgstr ""
+
+#: includes/class-gp-post-types.php:60
+msgid "Parent guest post"
+msgstr ""
+
+#: includes/class-gp-post-types.php:61
+msgid "Feature image"
+msgstr ""
+
+#: includes/class-gp-post-types.php:62
+msgid "Set featured image"
+msgstr ""
+
+#: includes/class-gp-post-types.php:63
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/class-gp-post-types.php:64
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/class-gp-post-types.php:65
+msgid "Insert into guest post"
+msgstr ""
+
+#: includes/class-gp-post-types.php:66
+msgid "Uploaded to this guest post"
+msgstr ""
+
+#: includes/class-gp-post-types.php:67
+msgid "Filter guest posts"
+msgstr ""
+
+#: includes/class-gp-post-types.php:68
+msgid "Guest Posts navigation"
+msgstr ""
+
+#: includes/class-gp-post-types.php:69
+msgid "Guest Posts list"
+msgstr ""
+
+#: includes/class-gp-post-types.php:81
+msgid "This is where you can add new guest posts to your store."
+msgstr ""
+
+#: includes/class-guest-post.php:133
+msgid "Processing..."
+msgstr ""
+
+#: includes/class-guest-post.php:154
+msgid "New Guest Post Added"
+msgstr ""
+
+#. translators: %1$s: guest post id %2$s: post author name
+#: includes/class-guest-post.php:156
+msgid "A new guest post #%1$s has been added for moderation by author %2$s."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:38
+msgid "All the above fields are required."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:44
+msgid "Specified file failed upload test."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:49
+msgid "File size should not be greater than 2 MB."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:56
+msgid "Unable to determine image type of the uploaded file."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:60
+msgid "Not a gif/jpeg/png image. Please upload a valid image format."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:67
+msgid "Error saving featured_image! Cannot submit your post."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:90
+msgid "Error creating guest post."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:97
+msgid "Thank You! Your post has been successfuly submitted for moderation."
+msgstr ""
+
+#: includes/shortcodes/class-gp-shortcode-form.php:119
+msgid "This post submission form is only accessible to logged-in user with author privileges. Please login as author to submit your post."
+msgstr ""
+
+#: templates/guest-post-form.php:20
+msgid "Post Submission"
+msgstr ""
+
+#: templates/guest-post-form.php:26
+msgid "Title"
+msgstr ""
+
+#: templates/guest-post-form.php:27
+msgid "Post title"
+msgstr ""
+
+#: templates/guest-post-form.php:30
+msgid "Post"
+msgstr ""
+
+#: templates/guest-post-form.php:33
+msgid "Select post type"
+msgstr ""
+
+#: templates/guest-post-form.php:34
+msgid "Guest post"
+msgstr ""
+
+#: templates/guest-post-form.php:39
+msgid "Description"
+msgstr ""
+
+#: templates/guest-post-form.php:40
+msgid "Post description"
+msgstr ""
+
+#: templates/guest-post-form.php:43
+msgid "Excerpt"
+msgstr ""
+
+#: templates/guest-post-form.php:44
+msgid "Post excerpt"
+msgstr ""
+
+#: templates/guest-post-form.php:47
+msgid "Featured Image"
+msgstr ""
+
+#: templates/guest-post-form.php:51
+msgid "Note: Max file size upload limit is 2 MB."
+msgstr ""
+
+#: templates/guest-post-form.php:59
+msgid "Submit"
+msgstr ""
